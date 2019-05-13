@@ -1,0 +1,19 @@
+{
+  "name": "webpack-starter-kit",
+  "version": "1.0.0",
+  "description": "An starter kit workflow using Webpack 4, PUG, SCSS, SMACSS, BEM, PostCSS & Babel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erwcode/webpack-starter-kit.git"
+  },
+  "author": "ErwCode Technologies <contacto@erwcode.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erwcode/webpack-starter-kit/issues"
+  },
+  "homepage": "https://github.com/erwcode/webpack-starter-kit#readme"
+}
