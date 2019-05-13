@@ -1,4 +1,5 @@
-const path = require('path');
+const path = require('path'),
+      HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -13,7 +14,20 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.(html)$/,
+        loader: 'html-loader'
+      },
+      {
+        test: /\.pug$/,
+        loader: 'pug-loader'
       }
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/pug/pages/index.pug'
+    })
+  ]
 };
