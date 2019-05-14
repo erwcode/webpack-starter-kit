@@ -1,5 +1,7 @@
-const path = require('path'),
-      HtmlWebpackPlugin = require('html-webpack-plugin');
+const path                  = require('path'),
+      HtmlWebpackPlugin     = require('html-webpack-plugin'),
+      MiniCssExtractPlugin  = require('mini-css-extract-plugin'),
+      autoprefixer          = require('autoprefixer');
 
 module.exports = {
   entry: './src/index.js',
@@ -22,12 +24,33 @@ module.exports = {
       {
         test: /\.pug$/,
         loader: 'pug-loader'
-      }
+      },
+      {
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          'style-loader',
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          {
+            loader: 'postcss-loader',
+            options: {
+              autoprefixer: { browser: ['last 2 versions'] },
+              sourceMap: true,
+              plugins: () => [ autoprefixer ]
+            }
+          },
+          'resolve-url-loader',
+          'sass-loader?outputStyle=compressed&sourceMap'
+        ]
+      },
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/pug/pages/index.pug'
+    }),
+    new MiniCssExtractPlugin({
+      filename: './assets/css/main.css'
     })
   ]
 };
