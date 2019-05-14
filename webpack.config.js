@@ -43,6 +43,25 @@ module.exports = {
           'sass-loader?outputStyle=compressed&sourceMap'
         ]
       },
+      {
+        test: /\.(jpe?g|png|gif|svg|webp)$/i,
+        use: [
+          'file-loader?name=assets/images/[name].[ext]',
+          'image-webpack-loader?bypassOnDebug'
+        ]
+      },
+      {
+        test: /\.(mp4|mp3)$/i,
+        use: 'file-loader?name=assets/media/[name].[ext]'
+      },
+      {
+        test: /\.(ttf|eot|woff2?|mp4|mp3|txt|xml|pdf)$/i,
+        use: 'file-loader?name=assets/fonts/[name].[ext]'
+      },
+      {
+        test: /\.(txt|xml|pdf)$/i,
+        use: 'file-loader?name=assets/docs/[name].[ext]'
+      },
     ]
   },
   plugins: [
