@@ -5,6 +5,7 @@
 [![MIT License][mit-license-image]][mit-license-url]
 [![GitHub contributors][contributors]][contributors-url]
 [![GitHub issues][issues-image]][issues-url]
+![GitHub package.json version][version-url]
 
 
 This Webpack starter kit comes with several tools and opinionated choices for front-end development projects.
@@ -48,3 +49,5 @@ Made with 💖 by [our team](https://erwcode.com/).
 
 [issues-image]: https://img.shields.io/github/issues/erwcode/webpack-starter-kit.svg
 [issues-url]: https://github.com/erwcode/webpack-starter-kit/issues
+
+[version-url]: https://img.shields.io/github/package-json/v/erwcode/webpack-starter-kit.svg?color=red
