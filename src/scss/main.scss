@@ -1,0 +1,21 @@
+/*  SMACSS-BEM ARCHITECTURE FOR CSS | MIT License */
+
+/*  Base Rules ================================== */
+@import 'base/reset';
+
+
+/*  Layout Rules ================================ */
+@import 'layout/grid';
+
+
+/*  Module Rules ================================ */
+@import 'modules/modal';
+
+
+/*  State Rules ================================= */
+@import 'state/is-active';
+
+
+/*  Theme Rules ================================= */
+@import 'theme/default';
+
