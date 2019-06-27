@@ -1,0 +1,27 @@
+block variables
+  //- Meta Tags HTML
+  - let siteName = 'YourCompanyName', pageTitle;
+
+  //- Meta Tags SEO
+  - let metaDescription, metaKewords;
+
+doctype html
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    if pageTitle === 'Home'
+      title= `${siteName} | YourDescriptionForSEO`
+    else
+      title= `${pageTitle} | ${siteName}`
+    meta(name="description" content= metaDescription)
+    meta(name="keywords" content= metaKeywords)
+    meta(name="author" content="YourCompany")
+    meta(name="robots" content="index, follow")
+
+  body
+    block body
+
+    include includes/footer.pug
+
