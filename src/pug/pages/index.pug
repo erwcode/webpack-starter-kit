@@ -1,4 +1,11 @@
-extends ../config/template
-append config
-  -pageTitle = 'Home'
-  -pageDescription = 'Webpack Starter Kit Home Page'
+extends ../template.pug
+append variables
+  - pageTitle       = 'Inicio'
+  - metaDescription = ''
+  - metaKeywords    = ''
+  - ogTitle         = 'Inicio'
+  - ogDescription   = ''
+  - ogUrl           = ''
+  - ogImage         = ''
+
+block body
