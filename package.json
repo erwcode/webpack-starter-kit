@@ -1,6 +1,6 @@
 {
   "name": "webpack-starter-kit",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An starter kit workflow using Webpack 4, PUG, SCSS, SMACSS, BEM, PostCSS & Babel.",
   "main": "index.js",
   "scripts": {
