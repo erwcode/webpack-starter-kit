@@ -55,7 +55,7 @@ module.exports = {
         use: 'file-loader?name=assets/media/[name].[ext]'
       },
       {
-        test: /\.(ttf|eot|woff2?|mp4|mp3|txt|xml|pdf)$/i,
+        test: /\.(ttf|eot|woff2?)$/i,
         use: 'file-loader?name=assets/fonts/[name].[ext]'
       },
       {
