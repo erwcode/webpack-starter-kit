@@ -3,7 +3,7 @@ block variables
   - let siteName = 'ErwCode', pageTitle;
 
   //- Meta Tags SEO
-  - let metaDescription, metaKeywords;
+  - let metaDescription;
 
   //- OpenGraph Protocol
   - let ogTitle, ogDescription, ogUrl, ogImage;
@@ -14,26 +14,31 @@ html(lang="es-MX")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    if pageTitle === 'Inicio'
+    if pageTitle === 'Home'
       title= `${siteName} | Tecnologías de la Información & Marketing Digital`
     else
       title= `${pageTitle} | ${siteName}`
     meta(name="description" content=metaDescription)
-    meta(name="keywords" content=metaKeywords)
     meta(name="author" content="ErwCode Technologies")
     meta(name="robots" content="index, follow")
-    meta(property="og:locate" content="es-MX")
+    meta(name="theme-color" content="#0C3455")
+    //- Open Graph Protocol
+    meta(property="og:locate" content="es_MX")
     meta(property="og:type" content="website")
-    if ogTitle === 'Inicio'
+    if ogTitle === 'Home'
       meta(property="og:title" content = `${siteName} | Tecnologías de la Información & Marketing Digital`)
     else
       meta(property="og:title" content = `${ogTitle} | ${siteName}`)
     meta(property="og:description" content=ogDescription)
     meta(property="og:url" content=ogUrl)
-    meta(property="og:site_name" content="ErwCode | Tecnologías de la Información & Marketing Digital")
+    meta(property="og:site_name" content="ErwCode")
     meta(property="og:image" content=ogImage)
     link(rel="shortcut icon" href="./assets/images/favicon.png")
-
+    //- Google Tag Manager
   body
+    //- Google Tag Manager (noscript)
+
+    //- Menu Section
     include includes/menu.pug
+
     block body
