@@ -1,0 +1,13 @@
+/* ********** Container Layout ********** */
+.l-container {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include mq(m) {
+    max-width: 44em;
+  }
+
+  @include mq(l) {
+    max-width: 60em;
+  }
+}

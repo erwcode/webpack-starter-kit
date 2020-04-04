@@ -1,16 +1,15 @@
 # Webpack Starter Kit Workflow
 
-[![npm][npm]][npm-url]
 [![node][node]][node-url]
+[![npm][npm]][npm-url]
 [![MIT License][mit-license-image]][mit-license-url]
 [![GitHub contributors][contributors]][contributors-url]
-[![GitHub issues][issues-image]][issues-url]
 ![GitHub package.json version][version-url]
 
 
 This Webpack starter kit comes with several tools and opinionated choices for front-end development projects.
 
-> An starter kit workflow using Webpack 4, PUG, SCSS, SMACSS, BEM, PostCSS & Babel.
+> An starter kit workflow using Webpack, PUG, SASS, SMACSS, BEM, PostCSS & Babel.
 
 ## Installation & Use
 
@@ -29,8 +28,9 @@ Install npm dependencies
  npm install
 ```
 
-### ErwCode Technologies
-Made with 💖 by [our team](https://erwcode.com/).
+### Copyright © ErwCode Technologies. All rights reserved
+
+Made with 💖 by [ErwCode Technologies](https://erwcode.com/).
 
 
 
@@ -46,8 +46,5 @@ Made with 💖 by [our team](https://erwcode.com/).
 
 [contributors]: https://img.shields.io/github/contributors/erwcode/webpack-starter-kit.svg?color=orange
 [contributors-url]: https://github.com/erwcode/webpack-starter-kit/graphs/contributors
-
-[issues-image]: https://img.shields.io/github/issues/erwcode/webpack-starter-kit.svg
-[issues-url]: https://github.com/erwcode/webpack-starter-kit/issues
 
 [version-url]: https://img.shields.io/github/package-json/v/erwcode/webpack-starter-kit.svg?color=red

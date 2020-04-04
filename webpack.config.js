@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'public'),
-    filename: './assets/js/[name].bundle.js'
+    filename: './assets/js/[name].js'
   },
   devtool: 'source-map',
   module: {

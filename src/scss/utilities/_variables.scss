@@ -1,0 +1,30 @@
+/* ********** Custom Properties ********** */
+:root {
+  --primary-font:     'Averta Regular';
+  --secondary-font:   'Averta Black';
+  --font-size: 16px;
+  --line-height: 1.6;
+
+  --primary-color:    #0C3455;
+  --secondary-color:  #00ABFF;
+  --tertiary-color:   #3088F4;
+  --quaternary-color: #000;
+  --quinary-color:    #FFF;
+
+  --text-color-black: var(--quaternary-color);
+  --text-color-white: var(--quinary-color);
+
+  --z-index-down:   25;
+  --z-index-middle: 50;
+  --z-index-up:     75;
+  --z-index-above:  100;
+}
+
+/* ********** Breakpoints ********** */
+$breakpoints: (
+  xs: 30em, /* 480 / 16  */
+  s:  37.5em, /* 600 / 16  */
+  m:  45em, /* 720 / 16 */
+  l:  64em, /* 1024 / 16 */
+  xl: 75em /* 1200/ 16 */
+);

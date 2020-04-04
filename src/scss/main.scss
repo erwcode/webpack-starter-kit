@@ -1,15 +1,20 @@
-/*  SMACSS-BEM ARCHITECTURE FOR CSS | MIT License */
+/*  SMACSS & BEM ARCHITECTURE FOR CSS | MIT License */
+
+/*  Utilities Rules ============================== */
+@import 'utilities/variables';
+@import 'utilities/mixins';
+@import 'utilities/fonts';
 
 /*  Base Rules ================================== */
 @import 'base/reset';
 
 
 /*  Layout Rules ================================ */
-@import 'layout/grid';
+@import 'layout/l-container';
 
 
 /*  Module Rules ================================ */
-@import 'modules/modal';
+@import 'modules/logo';
 
 
 /*  State Rules ================================= */
