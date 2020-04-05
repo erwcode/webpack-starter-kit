@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="container" width="150" height="150" stroke-width="1" fill="#fff" stroke="#707070" transform="translate(967.5 1501)"/>
+    </clipPath>
+  </defs>
+  <g id="webpack" transform="translate(-967.5 -1501)" clip-path="url(#clip-path)">
+    <g id="webpack-icon" transform="translate(982.14 1517.564)">
+      <path id="Trazado_4583" data-name="Trazado 4583" d="M60.36,0l51.647,29.218V87.654L60.36,116.871,8.712,87.654V29.218Z" fill="#fff"/>
+      <path id="Trazado_4584" data-name="Trazado 4584" d="M104.562,87.962,63.842,111V93.056L89.213,79.1Zm2.785-2.522V37.269l-14.9,8.6V76.83l14.9,8.61Zm-87.8,2.522L60.268,111V93.056L34.9,79.1,19.548,87.962ZM16.762,85.44V37.269l14.9,8.6V76.83l-14.9,8.61Zm1.743-51.287L60.268,10.525V27.871L33.514,42.587l-.2.117Zm87.1,0L63.842,10.525V27.871L90.6,42.587l.2.117Z" transform="translate(-1.778 -2.325)" fill="#8ed6fb"/>
+      <path id="Trazado_4585" data-name="Trazado 4585" d="M65.5,94.77,40.475,81.008V53.738L65.5,68.191V94.77m3.574,0,25.03-13.762V53.738L69.079,68.191V94.77M42.17,50.583,67.3,36.763l25.127,13.82L67.3,65.094,42.17,50.583" transform="translate(-7.015 -8.119)" fill="#1c78c0"/>
+    </g>
+  </g>
+</svg>

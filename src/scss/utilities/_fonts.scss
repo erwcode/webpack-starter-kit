@@ -4,7 +4,7 @@
   font-family: 'Averta Regular';
   font-style: normal;
   font-weight: normal;
-  font-display: auto;
+  font-display: swap;
   src: local('Averta Regular'), url('/assets/fonts/Averta.woff') format('woff');
 }
 
@@ -12,6 +12,6 @@
   font-family: 'Averta Black';
   font-style: normal;
   font-weight: normal;
-  font-display: auto;
+  font-display: swap;
   src: local('Averta Black'), url('/assets/fonts/Averta_Black.woff') format('woff');
 }

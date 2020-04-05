@@ -1,0 +1,63 @@
+/* ********** Logo ********** */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.logo {
+  margin: auto;
+  text-align: center;
+  color: var(--text-color-white);
+
+  // logo__image
+  &__image {
+    width: 120px;
+    // animation: logo-spin infinite 20s linear;
+
+    @include mq(m) { width: 200px; }
+  }
+
+  // logo__title
+  &__title {
+    margin: 1.5em 0;
+    font-family: var(--secondary-font);
+    font-size: 2em;
+
+    span { color: var(--tertiary-color); }
+
+    @include mq(m) { margin: .8em 0; font-size: 4em; }
+  }
+
+  &__brands img{
+    width: 10%;
+    margin-right: .5em;
+
+    &:last-child { margin-right: 0; }
+  }
+
+  // logo__copy
+  &__copy {
+    display: block;
+    margin-top: 1.2em;
+  }
+
+  // logo__link
+  &__link {
+    color: var(--secondary-color);
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

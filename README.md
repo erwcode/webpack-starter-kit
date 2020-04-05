@@ -7,19 +7,21 @@
 ![GitHub package.json version][version-url]
 
 
-This Webpack starter kit comes with several tools and opinionated choices for front-end development projects.
+This Webpack starter kit comes with several tools and opinionated choices for your front-end development projects.
 
-> An starter kit workflow using Webpack, PUG, SASS, SMACSS, BEM, PostCSS & Babel.
+![FontCDN mockup](./src/images/mockup.png)
+
+> A starter kit workflow using Webpack, PUG, SASS, SMACSS, BEM, PostCSS & Babel.
 
 ## Installation & Use
 
-Substitute `my-project-name` for your real project name.
+Substitute `my-project` for your real project name.
 
 Clone the repository
 
 ```sh
- git clone https://github.com/erwcode/webpack-starter-kit.git my-project-name
- cd my-project-name
+ git clone https://github.com/erwcode/webpack-starter-kit.git my-project
+ cd my-project
 ```
 
 Install npm dependencies

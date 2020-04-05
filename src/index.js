@@ -1,14 +1,18 @@
 /* ********** Fonts ********** */
-import ligthFont from './fonts/Averta_Light.woff'
-import regularFont from './fonts/Averta.woff'
-import boldFont from './fonts/Averta_Bold.woff'
-import blackFont from './fonts/Averta_Black.woff'
+import avertaRegular  from './fonts/Averta.woff'
+import avertaBlack    from './fonts/Averta_Black.woff'
 
 
 /* ********** Images ********** */
 
-import favicon      from './images/favicon.png'
-import logo from './images/erwcode-logo.svg';
+import favicon  from './images/favicon.png'
+import isotipo  from './images/isotipo.svg';
+
+import iconNode     from './images/node.svg'
+import iconWebpack  from './images/webpack.svg'
+import iconPug      from './images/pug.svg'
+import iconSass     from './images/sass.svg'
+import iconBabel    from './images/babel.svg'
 
 
 /* ********** CSS ********** */

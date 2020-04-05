@@ -40,7 +40,7 @@ module.exports = {
             }
           },
           'resolve-url-loader',
-          'sass-loader?outputStyle=compressed&sourceMap'
+          'sass-loader?outputStyle=compressed&sourceMap',
         ]
       },
       {
