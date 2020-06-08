@@ -13,7 +13,7 @@ body {
   // logo__image
   &__image {
     width: 120px;
-    // animation: logo-spin infinite 20s linear;
+    animation: logo-spin infinite 15s linear;
 
     @include mq(m) { width: 200px; }
   }
