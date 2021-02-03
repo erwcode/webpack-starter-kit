@@ -1,7 +1,7 @@
 {
   "name": "webpack-starter-kit",
   "version": "1.0.2",
-  "description": "An starter kit workflow using Webpack 4, PUG, SCSS, SMACSS, BEM, PostCSS & Babel.",
+  "description": "A starter kit workflow using Webpack, PUG, SCSS, SMACSS-ITCSS, BEM, PostCSS & Babel.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/erwcode/webpack-starter-kit#readme",
   "devDependencies": {
-    "autoprefixer": "^9.7.5",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-transform-spread": "^7.12.13",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.13",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.2.2",
     "css-loader": "^2.1.1",
     "file-loader": "^3.0.1",
     "html-loader": "^0.5.5",
@@ -33,12 +35,12 @@
     "postcss-loader": "^3.0.0",
     "pug": "^2.0.4",
     "pug-loader": "^2.4.0",
-    "resolve-url-loader": "^3.1.1",
+    "resolve-url-loader": "^3.1.2",
     "rimraf": "^2.7.1",
     "sass-loader": "^7.3.1",
     "style-loader": "^0.23.1",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
   }
 }
