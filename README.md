@@ -11,7 +11,7 @@ This Webpack starter kit comes with several tools and opinionated choices for yo
 
 ![FontCDN mockup](./src/images/mockup.png)
 
-> A starter kit workflow using Webpack, PUG, SASS, SMACSS, BEM, PostCSS & Babel.
+> A starter kit workflow using Webpack, PUG, SCSS, SMACSS-ITCSS, BEM, PostCSS & Babel.
 
 ## Installation & Use
 
