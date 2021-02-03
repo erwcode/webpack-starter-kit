@@ -12,26 +12,26 @@ body {
 
   // logo__image
   &__image {
-    width: 120px;
+    width: 12rem;
     animation: logo-spin infinite 15s linear;
 
-    @include mq(m) { width: 200px; }
+    @include mq(m) { width: 20rem; }
   }
 
   // logo__title
   &__title {
-    margin: 1.5em 0;
-    font-family: var(--secondary-font);
-    font-size: 2em;
+    margin: 3rem 0;
+    font-family: var(--primary-font-black);
+    font-size: 3.5rem;
 
     span { color: var(--tertiary-color); }
 
-    @include mq(m) { margin: .8em 0; font-size: 4em; }
+    @include mq(m) { font-size: 6rem; }
   }
 
   &__brands img{
-    width: 10%;
-    margin-right: .5em;
+    width: 15%;
+    margin-right: 2rem;
 
     &:last-child { margin-right: 0; }
   }
@@ -39,7 +39,8 @@ body {
   // logo__copy
   &__copy {
     display: block;
-    margin-top: 1.2em;
+    margin-top: 4rem;
+    font-size: 1.6rem;
   }
 
   // logo__link

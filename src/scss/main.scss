@@ -1,26 +1,41 @@
-/*  SMACSS & BEM ARCHITECTURE FOR CSS | MIT License */
+/*-------------------------------------------------------*\
+    SMACSS-ITCSS ARCHITECTURE FOR STRUCTURING CSS
+\*-------------------------------------------------------*/
 
-/*  Utilities Rules ============================== */
-@import 'utilities/variables';
-@import 'utilities/mixins';
-@import 'utilities/fonts';
+/*  Settings Layer
+    Global variables, fonts, mixins and functions.
+\*-------------------------------------------------------*/
+@import 'settings/variables';
+@import 'settings/fonts';
+@import 'settings/mixins';
 
-/*  Base Rules ================================== */
+
+/*  Base Rules
+    Ground-zero styles (Normalize.css, resets, box-sizing).
+\*-------------------------------------------------------*/
 @import 'base/reset';
 
 
-/*  Layout Rules ================================ */
+/*  Layout Rules
+    All types of layout containers.
+\*-------------------------------------------------------*/
 @import 'layout/l-container';
 
 
-/*  Module Rules ================================ */
-@import 'modules/logo';
+/*  Components Rules
+    UI elements that are reusable on the page.
+\*-------------------------------------------------------*/
+@import 'components/logo';
 
 
-/*  State Rules ================================= */
+/*  State Rules
+    How components looks in different dynamic situations.
+\*-------------------------------------------------------*/
 @import 'state/is-active';
 
 
-/*  Theme Rules ================================= */
-@import 'theme/default';
+/*  Theme Rules
+    Styles that override or extend the modules from UI
+\*-------------------------------------------------------*/
+@import 'theme/dark';
 

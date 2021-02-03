@@ -1,3 +1,4 @@
+
 /* ********** Reset ********** */
 
 html {
@@ -7,6 +8,7 @@ html {
   line-height:  var(--line-height);
   color: var(--text-color-black);
   background-color: var(--primary-color);
+  scroll-behavior: smooth;
 }
 
 *,
@@ -17,13 +19,10 @@ html {
   margin: 0;
 }
 
-body { overflow-x: hidden; }
+body { overflow-x: hidden;  }
 
 ul, ol { list-style: none; }
 
-a { text-decoration: none;}
+a { text-decoration: none; }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+img { max-width: 100%; height: auto; }

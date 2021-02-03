@@ -1,8 +1,8 @@
 /* ********** Custom Properties ********** */
 :root {
-  --primary-font:     'Averta Regular';
-  --secondary-font:   'Averta Black';
-  --font-size: 16px;
+  --primary-font: 'Averta Regular';
+  --primary-font-black:'Averta Black';
+  --font-size: 62.5%;
   --line-height: 1.6;
 
   --primary-color:    #021E35;
@@ -22,9 +22,17 @@
 
 /* ********** Breakpoints ********** */
 $breakpoints: (
-  xs: 30em, /* 480 / 16  */
-  s:  37.5em, /* 600 / 16  */
+  xs: 30em, /* 30em / 16  */
+  s:  37.5em, /* 37.5em / 16  */
   m:  45em, /* 720 / 16 */
   l:  64em, /* 1024 / 16 */
   xl: 75em /* 1200/ 16 */
+);
+
+$breakpoints: (
+  xs: 480px,  /* 30em / 16 */
+  s:  600px,  /* 37.5em / 16 */
+  m:  768px,  /* 45em / 16 */
+  l:  1024px, /* 64em / 16 */
+  xl: 1200px  /* 75em / 16 */
 );
